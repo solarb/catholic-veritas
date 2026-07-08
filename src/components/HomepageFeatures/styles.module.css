@@ -1,0 +1,24 @@
+.features {
+  padding: 0 0 5rem;
+  width: 100%;
+}
+
+.featureCard {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.featureInner {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(244, 237, 223, 0.96));
+  border: 1px solid rgba(80, 51, 26, 0.12);
+  border-radius: 1.25rem;
+  box-shadow: 0 18px 40px rgba(64, 40, 21, 0.08);
+  height: 100%;
+  padding: 1.5rem;
+}
+
+[data-theme='dark'] .featureInner {
+  background: linear-gradient(180deg, rgba(34, 24, 18, 0.96), rgba(25, 19, 16, 0.98));
+  border-color: rgba(228, 210, 180, 0.14);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+}
