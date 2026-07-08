@@ -2,7 +2,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-const organizationName = 'peter-igna';
+const organizationName = 'solarb';
 const projectName = 'catholic-veritas';
 
 const config: Config = {
@@ -92,7 +92,7 @@ const config: Config = {
           position: 'left',
         },
         {
-          href: 'https://github.com/peter-igna/catholic-veritas',
+          href: 'https://github.com/solarb/catholic-veritas',
           label: 'GitHub',
           position: 'right',
         },
